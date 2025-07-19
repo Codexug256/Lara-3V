@@ -64,19 +64,19 @@
     "STATUS_REPLY_MSG": {
       "description": "Statues reply msg",
       "required": true,
-      "value": "*_`AUTO STATUS JUST NOW SEEN BY LARA MD`_*"
+      "value": "*_` STATUS JUST NOW SEEN `_*"
     },
     
     "AUTO_STATUS_REACT": {
       "description": "Make it tru status auto react to any emojis",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
 
     "AUTO_BIO": {
       "description": "Make it true if you want bot auto bio",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     
     "FAKE_RECORDING": {
@@ -88,7 +88,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want bot auto typing",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
 
     "AUTO_REACT": {
