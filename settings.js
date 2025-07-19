@@ -34,7 +34,7 @@ READ_CMD: process.env.READ_CMD || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",  // inbox | same
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
