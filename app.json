@@ -16,13 +16,13 @@
     "OWNER_NUMBER": {
       "description": "Set your owner number",
       "required": true,
-      "value": "94779062397"
+      "value": "256754310866"
     },
 
     "DEV": {
       "description": "Bot Developer Numeber",
       "required": true,
-      "value": "94779062397"
+      "value": "256754310866"
     },
     
     "PREFIX": {
