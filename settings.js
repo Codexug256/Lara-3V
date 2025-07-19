@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Your_Session_Id", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "fcwmUSYT#k2p-yqbIVqEx-QuoQYFSv0agqkfhujYgc5X8WFyOWqY", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
+MODE: process.env.MODE || "private",  //public | private | inbox | group
+OWNER_NUMBER: process.env.OWNER_NUMBER || "256754310866",
+DEV: process.env.DEV || "256754310866",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -18,20 +18,20 @@ STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛ�
 AUTO_BIO: process.env.AUTO_BIO || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "true",    
+AUTO_REPLY: process.env.AUTO_REPLY || "false",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
 ANTI_BOT: process.env.ANTI_BOT || "false",
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 READ_CMD: process.env.READ_CMD || "true",
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
